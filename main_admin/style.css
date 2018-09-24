@@ -1,0 +1,112 @@
+body{
+
+font-size:1.2em;
+}
+h2{
+font-weight:bold;
+font-size:1.7em;
+color:rgb(150,150,0);
+}/*
+*{
+border:2px rgb(100,100,100) solid;info
+}*/
+
+fieldset{
+
+background-color:rgb(240,240,240);
+padding:20px;
+margin:10px;
+border:2px rgb(100,100,100) solid;
+border-radius:10px;
+}
+fieldset h1
+{
+font-weight:bold;
+font-size:2.2em;
+background-color:rgb(250,250,250);
+margin:8px;
+}
+.main_div
+{
+width:800px;
+background-color:rgb(240,240,240);
+/*
+background-color:rgb(240,0,10);
+border:1px rgb(0,0,0) solid;
+
+*/
+padding:30px;
+margin:30px;
+margin-left:auto;
+margin-right:auto;
+border-radius:10px;
+}
+
+#info{
+border:1px rgb(255,0,0) solid;
+border-radius:5px;
+background-color:rgb(255,245,179);
+padding:20px;
+margin:20px;
+margin-left:auto;
+margin-right:auto;
+display:table;
+font-weight:bold;
+}
+.success_message 
+{
+font-size:1.1em;
+font-weight:bold;
+color:green;
+margin:5px;
+}
+.info_message
+{
+font-size:1.1em; 
+font-weight:bold;
+color:blue;
+margin:5px;
+}
+.fail_message
+{
+font-size:1.1em;
+font-weight:bold;
+color:red;
+margin:5px;
+}
+
+input[type=text] ,input[type=email], input[type=tel], input[type=password]
+{
+height:50px;
+margin-top:10px;
+margin-bottom:10px;
+padding:5px;
+font-size:1.1em;
+}
+input[type=submit] ,input[type=button]
+{
+color:rgb(255,255,255);
+font-weight:bold;
+border-radius:6px;
+font-size:1.2em;
+background-color:rgb(3,143,49);
+padding:10px;
+margin-top: 20px;
+text-decoration: none;
+opacity:0.6;
+} 
+
+/***         MEDIA QUERY >800px            **/
+/***         MEDIA QUERY >800px            **/
+@media screen and (min-width:800px){
+/*
+legend+p,form{
+	display:table;
+}*/
+fieldset{
+	width:65%;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+}
