@@ -13,8 +13,11 @@
 	?>
 	<div class="main_div">
 	
-	<h1>Welcome main page:<br>
-	Put "index.php" page content or insert your own page </h1>
+	<h2>Welcome main page:</h1>
+	<p>
+	Put "index.php" page content or insert your own page 
+	This page is empty you can put some introductionnary about your web site activities
+	<p>
 	</div>
 	<?php
 	include_once("footer.php");
