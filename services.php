@@ -12,7 +12,12 @@
 	include_once("header.php");
 	?>
 	<div class="main_div">
-	<h1>Put "services.php" page content or insert your own page or delete it from menu in 'header.php' if you don't use it</h1>
+	<h2>Services</h2>
+	<p>
+	Put "services.php" page content or insert your own page or delete it from menu in 'header.php' 
+	if you don't use it<br>
+	This page is empty you can put some introductionnary about your web site activities
+	</p>
 	</div>
 	<?php
 	include_once("footer.php");
