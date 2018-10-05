@@ -20,7 +20,7 @@
 	</p>
 	<h2>Biography:</h2>
 	<p>
-	My name is Khaber Ahmed I am professional web developper
+	My name is Khaber Ahmed I am professional web developper .....
 	</p>
 	</div>
 	<?php
